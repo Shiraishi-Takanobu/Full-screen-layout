@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*共通部分
+-----------------------------------------*/
+
+html{
+  font-size: 100%;
+  /*ユーザー設定の文字サイズ*/
+}
+
+body{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height : 1.7;
+  color : #432;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* HEADER 
+------------------------------------------*/
+
+h1 a{
+  color : #fff;
+  font-size: 5rem;
+}
+
+.main_nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.main_nav li{
+  margin-left: 40px;
+}
+
+.main_nav a{
+  color: #fff;
+}
+
+.main_nav a:hover{
+  color: #00bbdd;
+}
+
+.page_header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin : 0 auto;
+  padding : 0 4%;
+}
+
+/* HOME
+--------------------------------------------------------*/
+
+.home_content{
+  text-align : center;
+  margin-top : 15%;
+}
+
+.home_content h2{
+  color : #000;
+}
+.home_content p{
+  font-size: 2rem;
+  margin : 10px 0 42px;
+  color: #000;
+}
+
+/* 見出し
+-----------------------------------------------------------*/
+.page_title{
+  font-size: 5rem;
+  font-family: 'Philosopher',serif;
+  font-weight: normal;
+}
+
+/*ボタン
+-------------------------------------------------------------*/
+.button{
+  font-size: 1.2rem;
+  background: #FF6928;
+  color: #fff;
+  border-radius: 5px;
+  padding : 20px 35px;
+}
+
+.button:hover{
+  background: #FF8856;
+}
+
+/* アイキャッチ画像
+---------------------------------------------------------------*/
+.big_bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home{
+  background-image : url(../images/eye_catchi.jpg);
+  min-height: 100vh;
+}
+
+#home .page_title{
+  text-transform: none;
+}
